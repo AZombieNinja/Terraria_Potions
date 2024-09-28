@@ -44,6 +44,12 @@ public class PotionMain {
         if (ev.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             ev.accept(ModItems.OBSIDIAN_SKIN_POTION_ITEM);
             ev.accept(ModItems.IRONSKIN_POTION);
+            ev.accept(ModItems.SWIFTNESS_POTION);
+            ev.accept(ModItems.GILLS_POTION);
+            ev.accept(ModItems.HEALTH_BOOST_POTION);
+            ev.accept(ModItems.NIGHT_OWL_POTION);
+            ev.accept(ModItems.POTION_OF_REGENERATION);
+            ev.accept(ModItems.POTION_OF_LUCK);
      }
     }
 

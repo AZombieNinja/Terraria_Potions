@@ -1,5 +1,17 @@
 {
-	"item.tpotions.obsidian_skin_potion_item.effect.empty": "Obsidianskin Potion",
-	"item.tpotions.iron_skin_potion_item.effect.empty": "Ironskin Potion"
+	"item.tpotions.obsidian_skin_potion_item.effect.empty": "Obsidian skin potion",
 	
+	"item.tpotions.gills_potion_item.effect.empty": "Gills potion",
+	
+	"item.tpotions.health_boost_potion_item.effect.empty": "Health boost otion",
+	
+	"item.tpotions.hunter_potion_item.effect.empty": "Hunter potion",
+	
+	"item.tpotions.night_owl_potion_item.effect.empty": "Night owl potion",
+	
+	"item.tpotions.iron_skin_potion_item.effect.empty": "Ironskin potion",
+	
+	"item.tpotions.potion_of_regeneration_item.effect.empty": "Potion of regeneration",
+	
+	"item.tpotions.swiftness_potion_item.effect.empty": "Swiftness potion"
 }

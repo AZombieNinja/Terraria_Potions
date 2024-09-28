@@ -24,9 +24,33 @@ public class PlayerEvents {
             entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, PotionMain.secondsToTicks(600))); // 3 minutes of Fire Resistance
             entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, PotionMain.secondsToTicks(600)));
         }
-            if (item.getItem() == ModItems.IRONSKIN_POTION.get()) {
-                // Apply the Fire Resistance effect
-                entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, PotionMain.secondsToTicks(350), 2));
-            }
+        if (item.getItem() == ModItems.IRONSKIN_POTION.get()) {
+
+            entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, PotionMain.secondsToTicks(350), 2));
+        }
+        if (item.getItem() == ModItems.GILLS_POTION.get()) {
+
+            entity.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, PotionMain.secondsToTicks(500), 0));
+        }
+        if (item.getItem() == ModItems.NIGHT_OWL_POTION.get()) {
+
+            entity.addEffect(new MobEffectInstance(MobEffects.GLOWING, PotionMain.secondsToTicks(350), 1));
+        }
+        if (item.getItem() == ModItems.SWIFTNESS_POTION.get()) {
+
+            entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, PotionMain.secondsToTicks(250), 1));
+        }
+        if (item.getItem() == ModItems.HEALTH_BOOST_POTION.get()) {
+
+            entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, PotionMain.secondsToTicks(350), 1));
+        }
+        if (item.getItem() == ModItems.POTION_OF_REGENERATION.get()) {
+
+            entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, PotionMain.secondsToTicks(350), 1));
+        }
+        if (item.getItem() == ModItems.POTION_OF_LUCK.get()) {
+
+            entity.addEffect(new MobEffectInstance(MobEffects.LUCK, PotionMain.secondsToTicks(350), 1));
+        }
     }
 }

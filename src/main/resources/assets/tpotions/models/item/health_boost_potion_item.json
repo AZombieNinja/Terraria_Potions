@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures":{
+		"layer0":"tpotions:item/health_boost_potion_item"
+	}
+}

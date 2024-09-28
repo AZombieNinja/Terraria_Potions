@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures":{
+		"layer0":"tpotions:item/night_owl_potion_item"
+	}
+}

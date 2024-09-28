@@ -2,6 +2,7 @@ package slozoni.tpotions;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PotionItem;
+import net.minecraft.world.item.alchemy.Potion;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,10 +16,20 @@ public class ModItems {
     // Register the potion item
     public static final RegistryObject<Item> OBSIDIAN_SKIN_POTION_ITEM = ITEMS.register("obsidian_skin_potion_item",
             () -> new PotionItem(new Item.Properties()));
-
     public static final RegistryObject<Item> IRONSKIN_POTION = ITEMS.register("iron_skin_potion_item",
             () -> new PotionItem(new Item.Properties()));
-
+    public static final RegistryObject<Item> GILLS_POTION = ITEMS.register("gills_potion_item",
+            () -> new PotionItem(new Item.Properties()));
+    public static final RegistryObject<Item> NIGHT_OWL_POTION = ITEMS.register("night_owl_potion_item",
+            () -> new PotionItem(new Item.Properties()));
+    public static final RegistryObject<Item> SWIFTNESS_POTION = ITEMS.register("swiftness_potion_item",
+            () -> new PotionItem(new Item.Properties()));
+    public static final RegistryObject<Item> POTION_OF_REGENERATION = ITEMS.register("potion_of_regeneration_item",
+            () -> new PotionItem(new Item.Properties()));
+    public static final RegistryObject<Item> HEALTH_BOOST_POTION = ITEMS.register("health_boost_potion_item",
+            () -> new PotionItem (new Item.Properties()));
+    public static final RegistryObject<Item> POTION_OF_LUCK = ITEMS.register("potion_of_luck",
+            () -> new PotionItem (new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
