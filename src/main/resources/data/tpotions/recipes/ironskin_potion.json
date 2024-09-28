@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "A",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:dandelion"
+    },
+    "E": {
+      "item": "minecraft:raw_iron"
+    },
+	"A": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "tpotions:iron_skin_potion_item",
+    "count": 1
+  }
+}

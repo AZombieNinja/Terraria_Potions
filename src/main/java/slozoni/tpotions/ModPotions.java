@@ -13,7 +13,8 @@ public class ModPotions {
     public static final DeferredRegister<Potion> POTIONS = DeferredRegister.create(ForgeRegistries.POTIONS, PotionMain.MODID);
 
     public static final RegistryObject<Potion> OBSIDIAN_SKIN = POTIONS.register("obsidian_skin_potion",
-            () -> new Potion(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 3600)));
+            () -> new Potion(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, PotionMain.secondsToTicks(500))));
+
 
     public static void register(IEventBus eventBus) {
         POTIONS.register(eventBus);

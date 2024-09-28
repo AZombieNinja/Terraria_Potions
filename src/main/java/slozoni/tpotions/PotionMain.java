@@ -41,20 +41,14 @@ public class PotionMain {
         LOGGER.info("Setting up common config for Obsidian Skin Potion mod");
     }
     private void fillTab(BuildCreativeModeTabContentsEvent ev) {
-        if (ev.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) { // Corrected comparison
+        if (ev.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             ev.accept(ModItems.OBSIDIAN_SKIN_POTION_ITEM);
+            ev.accept(ModItems.IRONSKIN_POTION);
      }
     }
 
-    @SubscribeEvent
-    public static void onLivingHurt(LivingHurtEvent event) {
-        if (event.getEntity() instanceof Player) {
-            Player player = (Player) event.getEntity();
-            if (player.hasEffect(ModPotions.OBSIDIAN_SKIN.get().getEffects().get(0).getEffect())) {
-                if (event.getSource().is(DamageTypes.LAVA)) {
-                    event.setCanceled(true);  // Cancel lava and fire damage
-                }
-            }
-        }
+    public static int secondsToTicks(int seconds)
+    {
+        return seconds * 20;
     }
 }

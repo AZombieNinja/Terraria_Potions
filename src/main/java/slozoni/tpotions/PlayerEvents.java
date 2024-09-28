@@ -21,8 +21,12 @@ public class PlayerEvents {
         // Check if the consumed item is the Obsidian Skin Potion
         if (item.getItem() == ModItems.OBSIDIAN_SKIN_POTION_ITEM.get()) {
             // Apply the Fire Resistance effect
-            entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 12000)); // 3 minutes of Fire Resistance
-            entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 12000));
+            entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, PotionMain.secondsToTicks(600))); // 3 minutes of Fire Resistance
+            entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, PotionMain.secondsToTicks(600)));
         }
+            if (item.getItem() == ModItems.IRONSKIN_POTION.get()) {
+                // Apply the Fire Resistance effect
+                entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, PotionMain.secondsToTicks(350), 2));
+            }
     }
 }
