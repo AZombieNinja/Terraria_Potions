@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures":{
+		"layer0":"tpotions:item/obsidian_skin_potion_item"
+	}
+}

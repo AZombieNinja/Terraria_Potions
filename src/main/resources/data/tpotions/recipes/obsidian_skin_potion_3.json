@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "AAA",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:obsidian"
+    },
+    "E": {
+      "item": "minecraft:wither_rose"
+    },
+	"A": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "tpotions:obsidian_skin_potion_item",
+    "count": 3
+  }
+}
