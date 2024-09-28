@@ -1,0 +1,12 @@
+{
+	"homepage": "https://github.com/AZombieNinja/Terraria_Potions",
+	"1.20.1":
+	{
+		"1.0.0": "Updated to 1.20.1"
+	},
+	"promos": 
+	{
+		"1.20.1-latest": "2.4.9",
+		"1.20.1-recommended": "2.4.9"
+	}
+}
