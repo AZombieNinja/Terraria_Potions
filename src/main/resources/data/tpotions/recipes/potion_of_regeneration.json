@@ -7,17 +7,17 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:red_mushroom"
     },
     "E": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:grass"
     },
 	"A": {
       "item": "minecraft:glass_bottle"
     }
   },
   "result": {
-    "item": "tpotions:obsidian_skin_potion_item",
+    "item": "tpotions:potion_of_regneration_item",
     "count": 1
   }
 }

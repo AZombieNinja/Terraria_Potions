@@ -13,5 +13,9 @@
 	
 	"item.tpotions.potion_of_regeneration_item.effect.empty": "Potion of regeneration",
 	
-	"item.tpotions.swiftness_potion_item.effect.empty": "Swiftness potion"
+	"item.tpotions.potion_of_greater_luck_item.effect.empty": "Potion of greater luck",
+	
+	"item.tpotions.swiftness_potion_item.effect.empty": "Swiftness potion",
+	
+	"item.tpotions.wrath_potion_item.effect.empty":"Wrath Potion"
 }

@@ -7,17 +7,17 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:raw_salmon"
     },
     "E": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:bamboo"
     },
 	"A": {
       "item": "minecraft:glass_bottle"
     }
   },
   "result": {
-    "item": "tpotions:obsidian_skin_potion_item",
+    "item": "tpotions:gills_potion_item",
     "count": 1
   }
 }

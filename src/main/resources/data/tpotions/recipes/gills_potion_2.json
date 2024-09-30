@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "EEE",
-    "AAA",
-    "BBB"
+    "EE",
+    "AA",
+    "BB"
   ],
   "key": {
     "B": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:raw_salmon"
     },
     "E": {
-      "item": "minecraft:wither_rose"
+      "item": "minecraft:bamboo"
     },
 	"A": {
       "item": "minecraft:glass_bottle"
     }
   },
   "result": {
-    "item": "tpotions:obsidian_skin_potion_item",
-    "count": 3
+    "item": "tpotions:gills_potion_item",
+    "count": 2
   }
 }

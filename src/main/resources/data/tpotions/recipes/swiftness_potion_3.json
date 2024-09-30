@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "E",
-    "A",
-    "B"
+    "EEE",
+    "AAA",
+    "BBB"
   ],
   "key": {
     "B": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:carrot"
     },
     "E": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:sugar"
     },
 	"A": {
       "item": "minecraft:glass_bottle"
     }
   },
   "result": {
-    "item": "tpotions:obsidian_skin_potion_item",
-    "count": 1
+    "item": "tpotions:swiftness_potion_item",
+    "count": 3
   }
 }

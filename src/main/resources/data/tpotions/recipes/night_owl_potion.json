@@ -7,17 +7,17 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:carrot"
     },
     "E": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:beetroot"
     },
 	"A": {
       "item": "minecraft:glass_bottle"
     }
   },
   "result": {
-    "item": "tpotions:obsidian_skin_potion_item",
+    "item": "tpotions:night_owl_potion_item",
     "count": 1
   }
 }

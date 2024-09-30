@@ -2,7 +2,6 @@ package slozoni.tpotions;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.PotionItem;
-import net.minecraft.world.item.alchemy.Potion;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -28,7 +27,9 @@ public class ModItems {
             () -> new PotionItem(new Item.Properties()));
     public static final RegistryObject<Item> HEALTH_BOOST_POTION = ITEMS.register("health_boost_potion_item",
             () -> new PotionItem (new Item.Properties()));
-    public static final RegistryObject<Item> POTION_OF_LUCK = ITEMS.register("potion_of_luck",
+    public static final RegistryObject<Item> POTION_OF_GREATER_LUCK = ITEMS.register("potion_of_greater_luck_item",
+            () -> new PotionItem (new Item.Properties()));
+    public static final RegistryObject<Item> WRATH_POTION = ITEMS.register("wrath_potion_item",
             () -> new PotionItem (new Item.Properties()));
 
 

@@ -7,10 +7,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:water_bucket"
     },
     "E": {
-      "item": "minecraft:wither_rose"
+      "item": "minecraft:lava_bucket"
     },
 	"A": {
       "item": "minecraft:glass_bottle"

@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "E",
-    "A",
-    "B"
+    "EE",
+    "AA",
+    "BB"
   ],
   "key": {
     "B": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:cooked_beef"
     },
     "E": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:sugar"
     },
 	"A": {
       "item": "minecraft:glass_bottle"
     }
   },
   "result": {
-    "item": "tpotions:obsidian_skin_potion_item",
-    "count": 1
+    "item": "tpotions:wrath_potion_item",
+    "count": 2
   }
 }

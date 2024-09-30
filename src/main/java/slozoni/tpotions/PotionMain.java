@@ -49,7 +49,7 @@ public class PotionMain {
             ev.accept(ModItems.HEALTH_BOOST_POTION);
             ev.accept(ModItems.NIGHT_OWL_POTION);
             ev.accept(ModItems.POTION_OF_REGENERATION);
-            ev.accept(ModItems.POTION_OF_LUCK);
+            ev.accept(ModItems.POTION_OF_GREATER_LUCK);
      }
     }
 
